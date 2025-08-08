@@ -1,1 +1,3 @@
-console.log("Proyecto HTML cargado correctamente");
+document.getElementById('actionBtn').addEventListener('click', () => {
+  alert('¡Hola Hugo! Este es tu proyecto con estilo 😎');
+});
